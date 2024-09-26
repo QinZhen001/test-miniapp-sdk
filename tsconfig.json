@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "outDir": "dist",
+    "rootDir": "src",
+    "sourceMap": false,
+    "declaration": true,
+    "resolveJsonModule": false,
+    "esModuleInterop": true,
+    "noImplicitThis": true,
+    "strict": true,
+    "moduleResolution": "node",
+    "forceConsistentCasingInFileNames": true,
+    "downlevelIteration": true,
+    "module": "esnext",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "noImplicitReturns": true,
+    "emitDeclarationOnly": true,
+    "stripInternal": true,
+    "lib": [
+      "esnext",
+      "dom"
+    ],
+    "skipLibCheck": true,
+    "allowJs": false,
+    "checkJs": false,
+  },
+  "include": [
+    "src"
+  ],
+  "exclude": [
+    "node_modules",
+    "publish",
+  ]
+}
